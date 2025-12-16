@@ -1,0 +1,104 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+body {
+    background-color: #8c9cc9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.container {
+    background-color: white;
+    width: 100%;
+    max-width: 700px;
+    padding: 60px;
+    border-radius: 4px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    font-size: 28px;
+    font-weight: 600;
+    margin-bottom: 10px;
+    color: #000;
+}
+
+.input-group {
+    width: 100%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+input {
+    width: 100%;
+    padding: 12px 16px;
+    border: 1px solid #d1d5db;
+    border-radius: 4px;
+    font-size: 16px;
+    outline: none;
+    transition: border-color 0.2s;
+}
+
+.password-container, .passwordconf-container {
+    position: relative;
+}
+
+.password-toggle, .confpassword-toggle {
+    position: absolute;
+    right: 16px;
+    top: 50%;
+    transform: translateY(-50%);
+    cursor: pointer;
+    color: #9ca3af;
+}
+
+input:focus {
+    border-color: #4f46e5;
+}
+.sent {
+    margin-top: 20px;
+}
+
+.receive {
+    margin-bottom: 20px;
+}
+.send {
+    width: 100%;
+    padding: 14px;
+    background-color: #4f46e5;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    font-weight: 500;
+    cursor: pointer;
+    transition: background-color 0.2s;
+    margin-bottom: 20px;
+}
+
+.send:hover {
+    background-color: #4338ca;
+}
+
+.back {
+    width: 100%;
+    padding: 14px;
+    background-color: #ffffff;
+    color: black;
+    border: 1px solid black;
+    border-radius: 4px;
+    font-size: 16px;
+    font-weight: 500;
+    cursor: pointer;
+    transition: background-color 0.2s;
+}
+
+.back:hover {
+    background-color: #42414c;
+}
